@@ -1,0 +1,51 @@
+timeout: 10
+
+androidelements:
+
+   hamburger_element:
+        findBy: xpath
+        locator: //android.widget.ImageButton[@content-desc="Drawer"]
+   choose_language_element:
+        findBy: xpath
+        locator: //android.widget.TextView[@text='Choose Language']
+   continue_button_element:
+        findBy: id
+        locator: select_btn
+   wishlist_option_element:
+        findBy: xpath
+        locator: //android.widget.TextView[@text='My Wishlist']
+   search_textbox_element:
+        findBy: xpath
+        locator: //android.widget.EditText[@content-desc="Search grocery products"]
+   products_search_element:
+        findBy: xpath
+        locator: //android.widget.TextView[@text='Search for Products, Brands and More']
+   autosuggestion_element:
+        findBy: xpath
+        locator: //android.widget.TextView[@text='in Mobiles']
+   iphone_13_element:
+        findBy: xpath
+        locator: //android.widget.TextView[@text='APPLE iPhone 13 Pro Max (Gold, 128 GB)']
+   wishlist_icon_element:
+        findBy: xpath
+        locator: //android.view.View/following-sibling::android.widget.ImageView
+   my_wishlist_element:
+        findBy: xpath
+        locator: //android.widget.TextView[@text='My Wishlist']
+   pdpBack_button_element:
+        findBy: xpath
+        locator: //android.widget.ImageButton[@content-desc="Back Button"]
+   cancel_search_button:
+        findBy: xpath
+        locator: //android.widget.ImageView[@content-desc="Cancel search"]
+   
+        
+
+
+ioselements:
+
+   play_icon:
+       findBy: id
+       locator: Play
+
+        

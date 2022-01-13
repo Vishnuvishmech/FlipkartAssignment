@@ -1,0 +1,29 @@
+timeout: 10
+
+androidelements:
+
+   english_lang_button:
+        findBy: xpath
+        locator: //android.widget.TextView[@text='English'][1]
+   continue_button:
+        findBy: xpath
+        locator: //android.widget.Button[@text='CONTINUE']
+   use_email:
+        findBy: id
+        locator: tv_right_cta
+   login_email:
+        findBy: xpath
+        locator: //android.widget.EditText[@content-desc="Email ID"]
+   login_password:
+        findBy: id
+        locator: phone_input
+   email_continue:
+        findBy: xpath
+        locator: //android.widget.TextView[@text='Continue']
+
+
+ioselements:
+
+   play_icon:
+       findBy: id
+       locator: Play
